@@ -43,6 +43,94 @@ In the top right corner of each section, there is a gear button that will allow 
 ![](http://i.imgur.com/u065kVg.png)
 
 
+### Creating an empty container
+
+**HTML**
+```html
+<div class="container">
+</div>
+```
+
+**CSS**
+```css
+.container {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid;  
+  overflow: hidden;
+  background: #6699CC;
+}
+```
+
+### Creating Earth
+
+```html
+<div class="container">
+  <div class="earth"></div>
+</div>
+```
+
+```css
+.earth {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;  
+  overflow: hidden;             
+  background: url('http://tinyurl.com/cdearth1') repeat;
+  background-size: 100px;
+  position: absolute;
+  top: 60%;
+  left: 0px;
+}
+```
+
+![](http://i.imgur.com/Ry6qmw8.png)
+
+**Adding animation to Earth**
+
+**CSS**
+
+We declare a motion called `spin`
+
+```css
+@keyframes spin{ 100% { transform: rotate(360deg); } }
+```
+
+```css
+...
+animation: spin 10s linear infinite; 
+...
+```
+
+
+### Creating a bird
+
+```html
+<div class="container">
+  <div class="earth"></div>
+  <div class="bird"></div>
+</div>
+```
+
+```css
+.bird {
+  background: black;
+  border-radius: 50% 50% 20% 20%;
+  position: absolute;
+  top: 5%;
+  left: 80%;
+  margin-top: -20px;
+  margin-left: -10px;
+  width: 15px;
+  height: 15px;
+  animation: fly 0.8s linear infinite;
+}
+```
+
+![](http://i.imgur.com/IWp3ETm.png)
+
 
 ## Customizations
 
