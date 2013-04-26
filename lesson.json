@@ -1,0 +1,13 @@
+{
+  "title": "Around the World",
+  "summary": "An introduction to CSS3 animation effects",
+  "author_github_username": "KartikTalwar",
+  "events": [
+    {
+      "location": "GitHub 548 4th St San Francisco CA 94107",
+      "date": "Sat Feb 27 2013 12:00:00 GMT-0700 (PDT)",
+      "length_in_hours": 2,
+      "teacher_github_username": "KartikTalwar"
+    }
+  ]
+}
