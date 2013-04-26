@@ -264,7 +264,111 @@ animation: spin 10s linear infinite;
 }
 ```
 
+### Adding and Airplane
 
+![](http://i.imgur.com/QYv4IHt.png)
+
+```html
+<div class="container">
+  <div class="earth"></div>
+  <div class="bird"></div>
+
+  <div class="sky">
+    <div class="sun">
+      <div class="sun">
+        <div class="sun">
+          <div class="sun">
+            <div class="sun"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+  <div class="tree"></div>
+  <div class="airplane"></div>
+</div>
+```
+
+```css
+.airplane {
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  width: 150px;
+  height: 100px;
+  background: url('http://tinyurl.com/cdplane1') no-repeat;
+  background-size: 150px 50px;
+  transform-origin: 50% 500px;
+  animation: round 9s linear infinite;
+}
+```
+
+
+### Adding the running boy
+
+
+![](http://i.imgur.com/kxtvegN.png)
+
+
+```html
+<div class="boy"></div>
+```
+
+```css
+.boy {
+  height: 195px;
+  background: url("http://i50.tinypic.com/2j26dee.png");
+  animation: run .5s steps(8) infinite;
+}
+
+@keyframes run {
+  0% { background-position: 0px; }
+  100% { background-position: -960px; }
+}
+```
+
+#### Adding the running effect
+
+```html
+<div class="container">
+  <div class="earth"></div>
+  <div class="bird"></div>
+
+  <div class="sky">
+    <div class="sun">
+      <div class="sun">
+        <div class="sun">
+          <div class="sun">
+            <div class="sun"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+  
+
+  <div class="tree"></div>
+  <div class="airplane"></div>
+
+  <div class="run">
+    <div class="boy"></div>
+  </div>
+
+  
+</div>
+```
+
+```css
+.run {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  width: 120px;
+  height: 195px;
+  overflow: hidden; 
+}
+```
 
 ## Customizations
 
