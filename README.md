@@ -107,6 +107,8 @@ animation: spin 10s linear infinite;
 
 ### Creating a bird
 
+![](http://i.imgur.com/CX2LEA7.png)
+
 ```html
 <div class="container">
   <div class="earth"></div>
@@ -129,7 +131,44 @@ animation: spin 10s linear infinite;
 }
 ```
 
+
+#### Adding wings to the bird
+
 ![](http://i.imgur.com/IWp3ETm.png)
+
+```css
+.bird:after, .bird:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.bird:after {
+  border-radius: 100% 100% 0 0;
+  box-shadow: inset 0px 5px 0px black;
+  width: 100px;
+  height: 100px;
+  margin-top: -7px;
+  margin-left: -50px;
+  transform-origin: 100% 0%;
+  animation: flap 3s linear infinite;
+}
+```
+
+#### Animatng the Bird
+
+```css
+@keyframes flap {
+  100% { transform: rotateX(1000deg); }
+}
+```
+
+```css
+@keyframes fly {
+  50% { transform: translate3d(15px, 18px, 5px); }
+}
+```
 
 
 ## Customizations
