@@ -8,7 +8,7 @@ We will be learning about CSS3 and the cool animation effects, to create an anim
 ![](http://i.imgur.com/OdsIvaf.png)
 
 
-### [Click here for the final demo](http://codepen.io/anon/pen/rgcBl)
+### [Click here for the final demo](http://codepen.io/anon/pen/yjLrH)
 
 ## Prerequisites
 
@@ -318,7 +318,7 @@ animation: spin 10s linear infinite;
 ```css
 .boy {
   height: 195px;
-  background: url("http://i50.tinypic.com/2j26dee.png");
+  background: url("http://tinyurl.com/cdrunning");
   animation: run .5s steps(8) infinite;
 }
 
@@ -329,6 +329,8 @@ animation: spin 10s linear infinite;
 ```
 
 #### Adding the running effect
+
+![](http://i.imgur.com/St5zMsB.png)
 
 ```html
 <div class="container">
@@ -370,11 +372,33 @@ animation: spin 10s linear infinite;
 }
 ```
 
+### [Click here for the final demo](http://codepen.io/anon/pen/yjLrH)
+
+
 ## Customizations
 
-**Samples**
 
-## Additional Resources
+### Replace the current planet with map of the Earth
+  
+- Do you really need the `repeat` property?
+
+### Make it night time
+
+- Can we change the Sun's colors to make it look like the moon?
+- Can we change the sky's color?
+
+### Make the boy run backwards
+
+- If positive direction is forward, what direction is backwards?
 
 
 ## Homework
+
+Try converting this to a native CSS and HTML document
+
+You need to import this javascript file:
+
+```html
+<script src="http://leaverou.github.io/prefixfree/prefixfree.js"></script>
+```
+
