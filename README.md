@@ -224,6 +224,48 @@ animation: spin 10s linear infinite;
 
 **inception!**
 
+
+### Adding a tree
+
+![](http://i.imgur.com/Q2JiIn4.png)
+
+
+```html
+<div class="container">
+  <div class="earth"></div>
+  <div class="bird"></div>
+
+  <div class="sky">
+    <div class="sun">
+      <div class="sun">
+        <div class="sun">
+          <div class="sun">
+            <div class="sun"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+  <div class="tree"></div>
+</div>
+```
+
+```css
+.tree {
+  width: 300px;
+  height: 300px;
+  background: url('http://tinyurl.com/cdtree1');
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  transform-origin: 50% 500px;
+  animation: spin 12s linear infinite;
+}
+```
+
+
+
 ## Customizations
 
 **Samples**
