@@ -156,7 +156,7 @@ animation: spin 10s linear infinite;
 }
 ```
 
-#### Animatng the Bird
+#### Animating the Bird
 
 ```css
 @keyframes flap {
@@ -170,6 +170,59 @@ animation: spin 10s linear infinite;
 }
 ```
 
+### Creating Sun
+
+```html
+<div class="container">
+  <div class="earth"></div>
+  <div class="bird"></div>
+
+  <div class="sky">
+    <div class="sun"></div>
+  </div>
+
+</div>
+```
+
+```css
+.sky {
+  position: absolute;
+  left: 10%;
+}
+
+.sun {
+    border-top: 5px solid #FFFF19;
+    border-left: 5px solid #FFFF5E;
+    border-right: 5px solid #FFFF33;
+    border-bottom: 5px solid #FFFF00;
+    border-radius: 100%;
+    padding: 3px;
+    animation: spin 5s linear infinite;
+}
+```
+
+![](http://i.imgur.com/mTGKhdR.png)
+
+
+#### Making the sun bigger
+
+![](http://i.imgur.com/K8xngHv.png)
+
+```html
+<div class="sky">
+  <div class="sun">
+    <div class="sun">
+      <div class="sun">
+        <div class="sun">
+          <div class="sun"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+**inception!**
 
 ## Customizations
 
