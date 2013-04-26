@@ -45,6 +45,8 @@ In the top right corner of each section, there is a gear button that will allow 
 
 ### Creating an empty container
 
+Inspired by [this](http://codepen.io/pixelgrid/pen/suflz)
+
 **HTML**
 ```html
 <div class="container">
