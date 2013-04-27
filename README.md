@@ -266,7 +266,7 @@ animation: spin 10s linear infinite;
 }
 ```
 
-### Adding and Airplane
+### Adding an Airplane
 
 ![](http://i.imgur.com/QYv4IHt.png)
 
@@ -302,7 +302,7 @@ animation: spin 10s linear infinite;
   background: url('http://tinyurl.com/cdplane1') no-repeat;
   background-size: 150px 50px;
   transform-origin: 50% 500px;
-  animation: round 9s linear infinite;
+  animation: spin 9s linear infinite;
 }
 ```
 
