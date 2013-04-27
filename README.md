@@ -396,7 +396,7 @@ animation: spin 10s linear infinite;
 
 ## Homework
 
-Try converting this to a native CSS and HTML document
+Try converting this to a CSS and HTML document (outside of codepen)
 
 You need to import this javascript file:
 
