@@ -377,6 +377,51 @@ animation: spin 10s linear infinite;
 ### [Click here for the final demo](http://codepen.io/anon/pen/yjLrH)
 
 
+### Adding the cloud
+
+```html
+ <div class="cloud"></div>
+```
+
+```css
+.cloud {
+  margin-top: 100px;
+  margin-left: 180px;
+  transform-origin: 50% 400px;
+  width: 150px;
+  height: 60px;
+  background: #f2f9fe;
+  border-radius: 100px;
+  position: relative;
+  z-index: 0;
+  animation: spin 7s linear infinite;
+}
+
+.cloud:after, .cloud:before {
+  content: '';
+  position: absolute;
+  background: #f2f9fe;
+  z-index: -1;
+}
+
+.cloud:after {
+  width: 60px;
+  height: 60px;
+  top: -30px;
+  left: 70px;
+  border-radius: 100px;
+}
+
+.cloud:before {
+  width: 80px;
+  height: 80px;
+  top: -40px;
+  right: 50px;
+  border-radius: 200px;
+}
+```
+
+
 ## Customizations
 
 
